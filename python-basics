@@ -1,0 +1,75 @@
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+
+This is a temporary script file 
+for learning purpose
+"""
+
+print("hello world")
+
+var = 5
+
+float = 3.14
+
+str1 = "This is my program\n"
+str2 = 'This is also my program'
+
+bool = True
+
+print(var,float,bool)
+print(str1,str2)
+
+#arthimetic operation
+#--------------------
+
+var = var + 10 *3
+float = float + 5.125 -0.23
+bool = False
+
+print(var,float,bool)
+
+div = 15 /3
+div1 = 10//3
+div2 = 40%9
+
+print(div,div1,div2)
+
+
+#string manipulation
+#--------------------
+
+str3 = "zebracodes"
+
+tmp1 =str3[:5]
+tmp2 = str3[5:]
+tmp3 = str3 [2:4]
+print(tmp1, tmp2, tmp3)
+
+#string methods
+#--------------------
+
+str4 = "Barcelona"
+print(len(str4))
+print(str(div))
+print("Barcelona".upper())
+print(str4+ "Vs" + "Madrid")
+
+#match = input("When is the match ?")
+#print("It will be on %s" %(match))
+
+#List & Tuples
+#--------------
+
+list = [1,2,3,4,5]
+tuple = [11,22,33,44,55]
+
+list.append(6)
+list.remove(0)
+print(list)
+print(tuple)
+
+
+
+
+
